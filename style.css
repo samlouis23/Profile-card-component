@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+  html {
+  font-size: 18px;
+  font-family: 'Kumbh Sans', sans-serif; }
+
+  body {
+  
+  overflow: hidden; 
+  background: right 55vw bottom 30vh no-repeat url("./images/bg-pattern-top.svg"),
+      45vw 40vh no-repeat url("./images/bg-pattern-bottom.svg"),#19A1AE;}
+
+  header {
+  position: relative;
+  padding-bottom: 1px; }
+
+
+  .card {
+  width: 90%;
+  max-width: 326px;
+  margin: 147px auto;
+  background-color: white;
+  border-radius: 15px;
+}
+
+  .card_top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden; }
+
+  .photo_profil {
+  position: relative;
+  top: -53px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  border: 4px solid white;;
+}
+
+  .infos_perso {
+  position: relative;
+  background-color: white;
+  margin-top: -5px;
+  padding-top: 0;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px; }
+
+  .cv {
+  text-align: center;
+  padding-bottom: 15px; }
+
+  h1 {
+  padding-bottom: 15px;
+  margin-top: -25px; }
+
+h1, h3 {
+  font-size: 1rem;
+  color: #2E3349; }
+
+h2 {
+  font-size: 0.77rem;
+  color: #6B7082; }
+
+h4 {
+  font-size: .5rem;
+  font-weight: 400;
+  color: #6B7082; 
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  padding: 24px 50px;
+  border-top: 1px solid #E8E9EC; }
+
+  .attribution{
+      text-align: center;
+  }
